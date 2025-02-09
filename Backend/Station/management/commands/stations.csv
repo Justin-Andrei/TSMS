@@ -1,0 +1,47 @@
+id,cctv,isOperating,leftCurrentDensity,leftETA,leftHistory,rightCurrentDensity,rightETA,rightHistory,stationIMG,stationName,trainLine
+1,,TRUE,Heavy,5,,Light,10,,,Roosevelt,LRT1
+2,,TRUE,Heavy,5,,Light,10,,,Balintawak,LRT1
+3,,TRUE,Heavy,5,,Light,10,,,Monumento,LRT1
+4,,TRUE,Heavy,5,,Light,10,,,5th Avenue,LRT1
+5,,TRUE,Heavy,5,,Light,10,,,R. Papa,LRT1
+6,,TRUE,Heavy,5,,Light,10,,,Abad Santos,LRT1
+7,,TRUE,Heavy,5,,Light,10,,,Blumentritt,LRT1
+8,,TRUE,Heavy,5,,Light,10,,,Tayuman,LRT1
+9,,TRUE,Heavy,5,,Light,10,,,Bambang,LRT1
+10,,TRUE,Heavy,5,,Light,10,,,Doroteo Jose,LRT1
+11,,TRUE,Heavy,5,,Light,10,,,Carriedo,LRT1
+12,,TRUE,Heavy,5,,Light,10,,,Central Terminal,LRT1
+13,,TRUE,Heavy,5,,Light,10,,,United Nations,LRT1
+14,,TRUE,Heavy,5,,Light,10,,,Pedro Gil,LRT1
+15,,TRUE,Heavy,5,,Light,10,,,Quirino,LRT1
+16,,TRUE,Heavy,5,,Light,10,,,Vito Cruz,LRT1
+17,,TRUE,Heavy,5,,Light,10,,,Gil Puyat,LRT1
+18,,TRUE,Heavy,5,,Light,10,,,Libertad,LRT1
+19,,TRUE,Heavy,5,,Light,10,,,EDSA,LRT1
+20,,TRUE,Heavy,5,,Light,10,,,Baclaran,LRT1
+21,,TRUE,Heavy,5,,Light,10,,,Recto,LRT2
+22,,TRUE,Heavy,5,,Light,10,,,Legarda,LRT2
+23,,TRUE,Heavy,5,,Light,10,,,Pureza,LRT2
+24,,TRUE,Heavy,5,,Light,10,,,V. Mapa,LRT2
+25,,TRUE,Heavy,5,,Light,10,,,J. Ruiz,LRT2
+26,,TRUE,Heavy,5,,Light,10,,,Gilmore,LRT2
+27,,TRUE,Heavy,5,,Light,10,,,Betty Go-Belmonte,LRT2
+28,,TRUE,Heavy,5,,Light,10,,,Araneta-Cubao,LRT2
+29,,TRUE,Heavy,5,,Light,10,,,Anonas,LRT2
+30,,TRUE,Heavy,5,,Light,10,,,Katipunan,LRT2
+31,,TRUE,Heavy,5,,Light,10,,,Santolan,LRT2
+32,,TRUE,Heavy,5,,Light,10,,,Marikina,LRT2
+33,,TRUE,Heavy,5,,Light,10,,,Antipolo,LRT2
+34,,TRUE,Heavy,5,,Light,10,,,North Avenue,MRT3
+35,,TRUE,Heavy,5,,Light,10,,,Quezon Avenue,MRT3
+36,,TRUE,Heavy,5,,Light,10,,,Kamuning,MRT3
+37,,TRUE,Heavy,5,,Light,10,,,Cubao,MRT3
+38,,TRUE,Heavy,5,,Light,10,,,Santolan,MRT3
+39,,TRUE,Heavy,5,,Light,10,,,Ortigas,MRT3
+40,,TRUE,Heavy,5,,Light,10,,,Shaw Blvd.,MRT3
+41,,TRUE,Heavy,5,,Light,10,,,Boni,MRT3
+42,,TRUE,Heavy,5,,Light,10,,,Guadalupe,MRT3
+43,,TRUE,Heavy,5,,Light,10,,,Buendia,MRT3
+44,,TRUE,Heavy,5,,Light,10,,,Ayala,MRT3
+45,,TRUE,Heavy,5,,Light,10,,,Magallanes,MRT3
+46,,TRUE,Heavy,5,,Light,10,,,Taft,MRT3

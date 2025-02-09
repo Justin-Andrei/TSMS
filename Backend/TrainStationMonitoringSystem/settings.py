@@ -11,6 +11,11 @@ https://docs.djangoproject.com/en/5.1/ref/settings/
 """
 
 from pathlib import Path
+from dotenv import load_dotenv
+import os
+import dj_database_url
+
+load_dotenv()
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent
@@ -25,7 +30,7 @@ SECRET_KEY = 'django-insecure-m519j$twvp!vv%^8$#ms4nk-3-s!-se8x3+ai1zqbpgt2g6g@w
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['.vercel.app', '127.0.0.1']
+ALLOWED_HOSTS = ['.vercel.app', '127.0.0.1', '*']
 
 
 # Application definition
@@ -81,17 +86,17 @@ WSGI_APPLICATION = 'TrainStationMonitoringSystem.wsgi.application'
 
 DATABASES = {
     # 'default': dj_database_url.parse("DATABASE_URL=postgresql://postgres:[YOUR-PASSWORD]@db.iqbsmjbstzitakmfcmdo.supabase.co:5432/postgres")
-    'default' : {
-        'ENGINE': 'django.db.backends.postgresql',
-        'NAME': 'postgres',
-        'USER': 'postgres.iqbsmjbstzitakmfcmdo',
-        'HOST': 'aws-0-ap-southeast-1.pooler.supabase.com',
-        'PORT': '6543',
-        'PASSWORD': 'trainStation191!'
-    }
+    # 'default' : {
+    #     'ENGINE': 'django.db.backends.postgresql',
+    #     'NAME': 'railway',
+    #     'USER': 'postgres',
+    #     'HOST': 'postgres.railway.internal',
+    #     'PORT': '5432',
+    #     'PASSWORD': 'gPQSGlZEEJmEeMrqYwIFgoKoYHbwlevE'
+    # }
+    'default': dj_database_url.parse('postgresql://postgres:JFKrcsqwPLolNZkvODOIbirrPtgzkiAL@autorack.proxy.rlwy.net:52940/railway')
 }
 
-# DATABASES = {
 #     'default': {
 #         'ENGINE': 'django.db.backends.sqlite3',
 #         'NAME': BASE_DIR / 'db.sqlite3',

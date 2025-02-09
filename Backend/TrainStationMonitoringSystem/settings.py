@@ -86,15 +86,15 @@ WSGI_APPLICATION = 'TrainStationMonitoringSystem.wsgi.application'
 
 DATABASES = {
     # 'default': dj_database_url.parse("DATABASE_URL=postgresql://postgres:[YOUR-PASSWORD]@db.iqbsmjbstzitakmfcmdo.supabase.co:5432/postgres")
-    'default' : {
-        'ENGINE': 'django.db.backends.postgresql_psycopg2',
-        'NAME': 'railway',
-        'USER': 'postgres',
-        'HOST': 'postgres.railway.internal',
-        'PORT': '5432',
-        'PASSWORD': 'JFKrcsqwPLolNZkvODOIbirrPtgzkiAL'
-    }
-    # 'default': dj_database_url.parse('postgresql://postgres:JFKrcsqwPLolNZkvODOIbirrPtgzkiAL@autorack.proxy.rlwy.net:52940/railway')
+    # 'default' : {
+    #     'ENGINE': 'django.db.backends.postgresql_psycopg2',
+    #     'NAME': 'railway',
+    #     'USER': 'postgres',
+    #     'HOST': 'postgres.railway.internal',
+    #     'PORT': '5432',
+    #     'PASSWORD': 'JFKrcsqwPLolNZkvODOIbirrPtgzkiAL'
+    # }
+    'default': dj_database_url.config(default='postgresql://postgres:JFKrcsqwPLolNZkvODOIbirrPtgzkiAL@autorack.proxy.rlwy.net:52940/railway')
 }
 
 #     'default': {
